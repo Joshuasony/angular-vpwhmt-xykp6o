@@ -5,7 +5,11 @@ body {
   margin: 0;
 }
 mat-expansion-panel {
-    width: 350px;
+    width: 442px;
+}
+.foo {
+  max-width: 90%;
+  widht: 90%;
 }
 mat-panel-title {
   flex-direction: column;
