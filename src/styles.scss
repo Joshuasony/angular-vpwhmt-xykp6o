@@ -10,6 +10,14 @@ body {
   max-width: 100%;
 }
 
+.globale-navigation {
+  border-bottom: 1px solid #dadada;
+  padding: 8px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
 .linke-navigation {
   border-right: 1px solid #dadada;
 }
