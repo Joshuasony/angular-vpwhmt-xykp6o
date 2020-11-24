@@ -1,6 +1,7 @@
 .globale-navigation {
   border-bottom: 1px solid #dadada;
   padding: 8px;
+  background-color: #fff;
 }
 
 .flex-wrapper {
@@ -10,6 +11,7 @@
 
 .linke-navigation {
   padding: 8px;
+  background-color: #fff;
 }
 
 .content {
@@ -23,4 +25,25 @@
 
 .mat-form-field-wrapper {
   padding-bottom: 0;
+}
+
+mat-expansion-panel {
+    width: 350px;
+}
+
+.mat-expansion-panel-header {
+  padding: 8px 16px;
+}
+
+mat-panel-title {
+  flex-direction: column;
+}
+
+.star {
+  color: gray;
+  margin-top: 2px;
+}
+
+.mat-form-field-wrapper {
+  padding-bottom: 0 !important;
 }

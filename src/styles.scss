@@ -3,24 +3,20 @@
 body {
   font-family: Roboto, Arial, sans-serif;
   margin: 0;
-  color: #fff;
-}
-mat-expansion-panel {
-    width: 350px;
-}
-.foo {
-  max-width: 90%;
-}
-mat-panel-title {
-  flex-direction: column;
+  background-color: #fff;
 }
 
-.star {
-  color: gray;
+.foo {
+  max-width: 100%;
 }
 
 .linke-navigation {
   border-right: 1px solid #dadada;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: flex-end;
 }
 
 
