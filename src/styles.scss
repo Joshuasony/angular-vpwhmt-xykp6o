@@ -3,24 +3,16 @@
 body {
   font-family: Roboto, Arial, sans-serif;
   margin: 0;
+  color: #fff;
 }
 mat-expansion-panel {
     width: 350px;
 }
 .foo {
   max-width: 90%;
-  widht: 90%;
 }
 mat-panel-title {
   flex-direction: column;
-}
-.basic-container {
-  padding: 30px;
-}
-.version-info {
-  font-size: 8pt;
-  float: right;
-  margin: 8px;
 }
 
 .star {
@@ -28,7 +20,7 @@ mat-panel-title {
 }
 
 .linke-navigation {
-  border-right: 1px solid gray;
+  border-right: 1px solid #dadada;
 }
 
 
