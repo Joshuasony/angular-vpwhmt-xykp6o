@@ -1,91 +1,130 @@
-<h3>Suchresultate</h3>
-<mat-accordion>
-	<!-- #docregion basic-panel -->
-	<!-- #docregion hide-toggle -->
-	<mat-expansion-panel hideToggle>
-		<!-- #enddocregion hide-toggle -->
-		<mat-expansion-panel-header>
-			<mat-panel-title>
-				Ackermann, Hans
-				<div class="star">127893612</div>
-			</mat-panel-title>
-			<mat-panel-description style="border-right:1px solid #ddd">
-				10.06.1975
-			</mat-panel-description>
-      <button mat-icon-button>
-        <mat-icon>contact_mail</mat-icon>
-      </button>
-		</mat-expansion-panel-header>
-		<img class="foo" src="https://stackblitz.com/files/angular-vpwhmt-xykp6o/github/Joshuasony/angular-vpwhmt-xykp6o/master/Bildschirmfoto 2020-11-23 um 11.55.01.png">
-			<button mat-button>Auswählen</button>
-	</mat-expansion-panel>
-	<!-- #enddocregion basic-panel -->
-	<mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false" hideToggle>
-		<mat-expansion-panel-header>
-			<mat-panel-title>
-				Ackermann, Hans
-				<div class="star">127893612</div>
-			</mat-panel-title>
-			<mat-panel-description style="border-right:1px solid #ddd">
-				23.05.2020
-			</mat-panel-description>
-            <button mat-icon-button>
-        <mat-icon>contact_mail</mat-icon>
-      </button>
-		</mat-expansion-panel-header>
-		<img class="foo" src="https://stackblitz.com/files/angular-vpwhmt-xykp6o/github/Joshuasony/angular-vpwhmt-xykp6o/master/Bildschirmfoto 2020-11-23 um 11.55.01.png">
-			<button mat-button>Auswählen</button>
-	</mat-expansion-panel>
-	<mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false" hideToggle>
-		<mat-expansion-panel-header>
-			<mat-panel-title>
-				Ackermann, Hans
-				<div class="star">127893612</div>
-			</mat-panel-title>
-			<mat-panel-description style="border-right:1px solid #ddd">
-				01.02.1987
-			</mat-panel-description>
-            <button mat-icon-button>
-        <mat-icon>contact_mail</mat-icon>
-      </button>
-		</mat-expansion-panel-header>
-		<img class="foo" src="https://stackblitz.com/files/angular-vpwhmt-xykp6o/github/Joshuasony/angular-vpwhmt-xykp6o/master/Bildschirmfoto 2020-11-23 um 11.55.01.png">
-			<button mat-button>Auswählen</button>
-	</mat-expansion-panel>
-	<mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false" hideToggle>
-		<mat-expansion-panel-header>
-			<mat-panel-title>
-				Ackermann, Hans
-				<div class="star">127893612</div>
-			</mat-panel-title>
-			<mat-panel-description style="border-right:1px solid #ddd">
-				28.12.1966
-			</mat-panel-description>
-            <button mat-icon-button>
-        <mat-icon>contact_mail</mat-icon>
-      </button>
-		</mat-expansion-panel-header>
-		<img class="foo" src="https://stackblitz.com/files/angular-vpwhmt-xykp6o/github/Joshuasony/angular-vpwhmt-xykp6o/master/Bildschirmfoto 2020-11-23 um 11.55.01.png">
-			<button mat-button>Auswählen</button>
-	</mat-expansion-panel>
-	<mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false" hideToggle>
-		<mat-expansion-panel-header>
-			<mat-panel-title>
-				Ackermann, Hans
-				<div class="star">127893612</div>
-			</mat-panel-title>
-			<mat-panel-description style="border-right:1px solid #ddd">
-				13.02.1967
-			</mat-panel-description>
-            <button mat-icon-button>
-        <mat-icon>contact_mail</mat-icon>
-      </button>
-		</mat-expansion-panel-header>
-		<img class="foo" src="https://stackblitz.com/files/angular-vpwhmt-xykp6o/github/Joshuasony/angular-vpwhmt-xykp6o/master/Bildschirmfoto 2020-11-23 um 11.55.01.png">
-			<button mat-button>Auswählen</button>
-	</mat-expansion-panel>
-</mat-accordion>
-
+<h3>Linke Navigation</h3>
+<div class="linke-navigation">
+  <mat-accordion>
+    <!-- #docregion basic-panel -->
+    <!-- #docregion hide-toggle -->
+    <form class="example-form">
+      <mat-form-field class="example-full-width">
+        <mat-label>Schnellsuche</mat-label>
+        <input type="search" matInput placeholder="Personen, STAR-Nr." value="Ackermann Hans"/>
+        <mat-icon matSuffix>search</mat-icon>
+      </mat-form-field>
+    </form>
+    <mat-expansion-panel hideToggle>
+      <!-- #enddocregion hide-toggle -->
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Ackermann, Hans
+          <div class="star">127893612</div>
+        </mat-panel-title>
+        <mat-panel-description style="border-right:1px solid #ddd">
+          10.06.1975
+        </mat-panel-description>
+        <button mat-icon-button>
+          <mat-icon>contact_mail</mat-icon>
+        </button>
+      </mat-expansion-panel-header>
+      <img
+        class="foo"
+        src="https://stackblitz.com/files/angular-vpwhmt-xykp6o/github/Joshuasony/angular-vpwhmt-xykp6o/master/Bildschirmfoto 2020-11-23 um 11.55.01.png"
+      />
+      <button mat-button>Auswählen</button>
+    </mat-expansion-panel>
+    <!-- #enddocregion basic-panel -->
+    <mat-expansion-panel
+      (opened)="panelOpenState = true"
+      (closed)="panelOpenState = false"
+      hideToggle
+    >
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Ackermann, Hans
+          <div class="star">127893612</div>
+        </mat-panel-title>
+        <mat-panel-description style="border-right:1px solid #ddd">
+          23.05.2020
+        </mat-panel-description>
+        <button mat-icon-button>
+          <mat-icon>contact_mail</mat-icon>
+        </button>
+      </mat-expansion-panel-header>
+      <img
+        class="foo"
+        src="https://stackblitz.com/files/angular-vpwhmt-xykp6o/github/Joshuasony/angular-vpwhmt-xykp6o/master/Bildschirmfoto 2020-11-23 um 11.55.01.png"
+      />
+      <button mat-button>Auswählen</button>
+    </mat-expansion-panel>
+    <mat-expansion-panel
+      (opened)="panelOpenState = true"
+      (closed)="panelOpenState = false"
+      hideToggle
+    >
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Ackermann, Hans
+          <div class="star">127893612</div>
+        </mat-panel-title>
+        <mat-panel-description style="border-right:1px solid #ddd">
+          01.02.1987
+        </mat-panel-description>
+        <button mat-icon-button>
+          <mat-icon>contact_mail</mat-icon>
+        </button>
+      </mat-expansion-panel-header>
+      <img
+        class="foo"
+        src="https://stackblitz.com/files/angular-vpwhmt-xykp6o/github/Joshuasony/angular-vpwhmt-xykp6o/master/Bildschirmfoto 2020-11-23 um 11.55.01.png"
+      />
+      <button mat-button>Auswählen</button>
+    </mat-expansion-panel>
+    <mat-expansion-panel
+      (opened)="panelOpenState = true"
+      (closed)="panelOpenState = false"
+      hideToggle
+    >
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Ackermann, Hans
+          <div class="star">127893612</div>
+        </mat-panel-title>
+        <mat-panel-description style="border-right:1px solid #ddd">
+          28.12.1966
+        </mat-panel-description>
+        <button mat-icon-button>
+          <mat-icon>contact_mail</mat-icon>
+        </button>
+      </mat-expansion-panel-header>
+      <img
+        class="foo"
+        src="https://stackblitz.com/files/angular-vpwhmt-xykp6o/github/Joshuasony/angular-vpwhmt-xykp6o/master/Bildschirmfoto 2020-11-23 um 11.55.01.png"
+      />
+      <button mat-button>Auswählen</button>
+    </mat-expansion-panel>
+    <mat-expansion-panel
+      (opened)="panelOpenState = true"
+      (closed)="panelOpenState = false"
+      hideToggle
+    >
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Ackermann, Hans
+          <div class="star">127893612</div>
+        </mat-panel-title>
+        <mat-panel-description style="border-right:1px solid #ddd">
+          13.02.1967
+        </mat-panel-description>
+        <button mat-icon-button>
+          <mat-icon>contact_mail</mat-icon>
+        </button>
+      </mat-expansion-panel-header>
+      <img
+        class="foo"
+        src="https://stackblitz.com/files/angular-vpwhmt-xykp6o/github/Joshuasony/angular-vpwhmt-xykp6o/master/Bildschirmfoto 2020-11-23 um 11.55.01.png"
+      />
+      <button mat-button>Auswählen</button>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>
 
 <!-- Copyright 2020 Google LLC. All Rights Reserved.
     Use of this source code is governed by an MIT-style license that

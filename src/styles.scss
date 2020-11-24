@@ -5,7 +5,7 @@ body {
   margin: 0;
 }
 mat-expansion-panel {
-    width: 442px;
+    width: 350px;
 }
 .foo {
   max-width: 90%;
@@ -27,6 +27,9 @@ mat-panel-title {
   color: gray;
 }
 
+.linke-navigation {
+  border-right: 1px solid gray;
+}
 
 
 /**  Copyright 2020 Google LLC. All Rights Reserved.
